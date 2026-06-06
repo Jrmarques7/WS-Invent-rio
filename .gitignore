@@ -1,0 +1,39 @@
+# Binaries
+bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Environment
+.env
+.env.local
+
+# Build
+dist/
+build/
+
+# Go
+vendor/
+*.test
+*.out
+
+# Node / Next.js
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+*.tsbuildinfo
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
